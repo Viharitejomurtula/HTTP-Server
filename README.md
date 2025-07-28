@@ -132,6 +132,12 @@ fclose(log);
 ```
 ### Safety
 The server blocks insecure path requests by checking for potentially malicious characters such as "..", "<", or "\\'". This prevents attacks such as directory traversal or file injection.
+<br>
+Furthermore, the following line of codes limits the scope of access.
+```c
+snprintf(fullpath, sizeof(fullpath), "./www%s", path);
+```
+This disallows the server to read or write to any files outside of the "www" directory, which I have arbitrarily selected for display.
 
 ## How to Run
 After compiling the server code with ``` gcc server.c -o server -pthread```, run the server with the following: ```./server <port-number>```
