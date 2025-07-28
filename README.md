@@ -157,5 +157,5 @@ The following command can be used to submit a **POST** request for the file "wri
 
 ## Author
 **Vihari Tejomurtula** <br>
-**Computer Engineering Student | UCSC** 
-[LinkedIn](www.linkedin.com/in/vihari-t-9090982b1) | [Github]
+**Computer Engineering Student | UCSC |**
+[LinkedIn](www.linkedin.com/in/vihari-t-9090982b1) | [Github](https://github.com/Viharitejomurtula)
